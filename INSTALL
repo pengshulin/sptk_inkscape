@@ -1,0 +1,7 @@
+It's easy:
+
+COPY all files in extensions directory to HOME/.config/inkscape/extensions
+APPEND keys/default.xml config to HOME/.config/inkscape/keys/default.xml
+
+Enjoy
+

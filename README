@@ -1,0 +1,17 @@
+Shulin Peng's ToolKit for inkscape extensions
+(short for SPTK)
+
+This is my personal Inkscape/UI design toolkit.  It's used to prototype 
+my segment LCD screen layout when new project begins.  This increases my 
+work efficiency (I'm designing portable handheld instruments with LCD).
+
+Current features:
+*) Set selected segment ON/OFF;
+*) Toggle selected segment ON/OFF;
+*) Snapshot/Load segments ON/OFF states and management them;
+
+NOTE:
+*) ON/OFF is controlled with opacity which can be modified manually.
+
+If any bug is found, feel free to mail me <trees_peng@163.com>.
+

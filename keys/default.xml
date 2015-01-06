@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<keys name="speng's toolkit">
+
+<bind key="KP_Add" modifiers="Shift" action="sptk.lcd.set" display='true' />
+<bind key="KP_Subtract" modifiers="Shift" action="sptk.lcd.clear" display='true' />
+<bind key="KP_Enter" modifiers="Shift" action="sptk.lcd.toggle" display='true' />
+<bind key="KP_Multiply" modifiers="Shift" action="sptk.lcd.snapshot" display='true' />
+
+</keys>
+
