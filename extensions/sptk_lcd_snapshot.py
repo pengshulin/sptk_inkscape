@@ -207,6 +207,7 @@ class C(SegmentLCD):
            
     def save_segments(self):
         f = open(self.segment_filename, 'w+')
+        f.write('# coding:utf-8\n')
         f.write('segments = \\\n')
         pprint.pprint( self.segments, f )
         f.write('\n')
@@ -222,6 +223,7 @@ class C(SegmentLCD):
  
     def save_snapshots(self):
         f = open(self.snapshot_filename, 'w+')
+        f.write('# coding:utf-8\n')
         f.write('snapshots = \\\n')
         pprint.pprint( self.snapshots, f )
         f.write('\n')
